@@ -1,0 +1,34 @@
+
+.header{
+    position: -webkit-sticky; 
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    background-color: #222b3d;
+    height: 60px;
+    align-items: center;
+    align-content: flex-start;
+    padding: 0 10px 0 10px; 
+}
+
+.header__img{
+    height:30px;
+}
+
+.header__img{
+    cursor: pointer;
+}
+
+.header__loginRegister{
+    font-size: 15px;
+    margin-right: 15px;
+    color: white;
+    font: Montserrat;
+    font-weight: bold;
+}
+
+.header__divider{
+    color: grey;
+    font-weight: 10;
+    text-align: center;
+}

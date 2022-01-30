@@ -1,0 +1,26 @@
+.search{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 30px;
+    border-radius: 30px;
+    width: 60%;
+    flex-shrink: 60;
+}
+
+.search__input{
+    margin-left: 10px;
+    outline: none !important;
+    border: none;
+    width: 100%;
+    flex-shrink: 60;
+}
+
+.search__icon{
+    padding-right: 10px;
+    flex-shrink: 60;
+}
+
+.search__icon:hover{
+    cursor: pointer;
+}
